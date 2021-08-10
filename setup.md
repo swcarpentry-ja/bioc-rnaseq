@@ -1,5 +1,7 @@
 ---
 title: Setup
+root: ..
+permalink: /setup/
 ---
 FIXME
 
