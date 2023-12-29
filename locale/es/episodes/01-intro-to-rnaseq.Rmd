@@ -8,15 +8,15 @@ exercises: 35
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - Explicar qué es RNA-seq.
-- Describe some of the most common design choices that have to be made before running an RNA-seq experiment.
-- Provide an overview of the procedure to go from the raw data to the read count matrix that will be used for downstream analysis.
-- Show some common types of results and visualizations generated in RNA-seq analyses.
+- Describir algunas de las opciones de diseño experimental más comunes que hay que hacer antes de ejecutar un experimento RNA-seq.
+- Proporcionar una visión general del procedimiento para pasar de los datos crudos a la matriz de conteos que se utilizará para el análisis posterior.
+- Mostrar algunos tipos comunes de resultados y visualizaciones generadas en análisis de RNA-seq.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
 
-- What are the different choices to consider when planning an RNA-seq experiment?
+- ¿Cuáles son las diferentes opciones a tener en cuenta al planificar un experimento RNA-seq?
 - How does one process the raw fastq files to generate a table with read counts per gene and sample?
 - Where does one find information about annotated genes for a given organism?
 - What are the typical steps in an RNA-seq analysis?
