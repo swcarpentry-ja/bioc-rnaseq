@@ -452,7 +452,7 @@ loaded via a namespace (and not attached):
 [49] miniUI_0.1.1.1          lattice_0.22-5          tibble_3.2.1           
 [52] shiny_1.7.5.1           withr_2.5.2             evaluate_0.23          
 [55] circlize_0.4.15         pillar_1.9.0            affyio_1.70.0          
-[58] BiocManager_1.30.22     renv_1.0.5              DT_0.30                
+[58] BiocManager_1.30.22     renv_1.0.7              DT_0.30                
 [61] foreach_1.5.2           shinyjs_2.1.0           generics_0.1.3         
 [64] RCurl_1.98-1.13         munsell_0.5.0           scales_1.2.1           
 [67] xtable_1.8-4            glue_1.6.2              tools_4.3.3            

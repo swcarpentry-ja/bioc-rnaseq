@@ -500,9 +500,9 @@ microbenchmark(
 
 ```{.output}
 Unit: microseconds
-   expr     min       lq      mean   median       uq     max neval
- fisher 239.427 243.5195 253.21155 246.6855 254.0885 472.361   100
-  hyper   1.343   1.5270   2.22295   2.0135   2.8000   6.732   100
+   expr     min      lq      mean   median       uq     max neval
+ fisher 243.062 246.047 253.56693 248.0350 253.2495 453.532   100
+  hyper   1.342   1.543   2.33203   1.8735   2.8300  16.631   100
 ```
 
 It is very astonishing that `phyper()` is hundreds of times faster than
@@ -1230,7 +1230,7 @@ resTimeGO = enrichGO(gene = timeDEgenes,
 ```
 
 ```{.output}
---> Expected input gene ID: 12846,27354,26437,23950,18211,74188
+--> Expected input gene ID: 623474,56449,14347,100039120,21808,21674
 ```
 
 ```{.output}
@@ -1458,37 +1458,37 @@ head(resTimeKEGGTable)
 ```{.output}
                ID
 mmu00590 mmu00590
+mmu00591 mmu00591
 mmu00565 mmu00565
 mmu00592 mmu00592
-mmu00591 mmu00591
 mmu04913 mmu04913
 mmu04061 mmu04061
                                                                                         Description
 mmu00590                                   Arachidonic acid metabolism - Mus musculus (house mouse)
+mmu00591                                      Linoleic acid metabolism - Mus musculus (house mouse)
 mmu00565                                        Ether lipid metabolism - Mus musculus (house mouse)
 mmu00592                               alpha-Linolenic acid metabolism - Mus musculus (house mouse)
-mmu00591                                      Linoleic acid metabolism - Mus musculus (house mouse)
 mmu04913                                       Ovarian steroidogenesis - Mus musculus (house mouse)
 mmu04061 Viral protein interaction with cytokine and cytokine receptor - Mus musculus (house mouse)
          GeneRatio BgRatio       pvalue     p.adjust       qvalue
-mmu00590    16/454 85/9466 2.220986e-06 0.0006818428 0.0005938216
-mmu00565    11/454 48/9466 1.233183e-05 0.0014145591 0.0012319493
-mmu00592     8/454 25/9466 1.382305e-05 0.0014145591 0.0012319493
-mmu00591    11/454 50/9466 1.868916e-05 0.0014343934 0.0012492231
-mmu04913    12/454 63/9466 3.665628e-05 0.0022506953 0.0019601461
-mmu04061    14/454 95/9466 1.604565e-04 0.0072628302 0.0063252490
+mmu00590    16/461 88/9710 3.150659e-06 0.0009704030 0.0008423867
+mmu00591    12/461 55/9710 7.726197e-06 0.0009893979 0.0008588758
+mmu00565    11/461 48/9710 1.122728e-05 0.0009893979 0.0008588758
+mmu00592     8/461 25/9710 1.284932e-05 0.0009893979 0.0008588758
+mmu04913    12/461 64/9710 3.919330e-05 0.0024143073 0.0020958102
+mmu04061    14/461 95/9710 1.446141e-04 0.0074235225 0.0064442061
                                                                                                        geneID
 mmu00590 18783/19215/211429/329502/78390/19223/67103/242546/13118/18781/18784/11689/232889/15446/237625/11687
+mmu00591                        18783/211429/329502/78390/242546/18781/18784/13113/622127/232889/237625/11687
 mmu00565                               18783/211429/329502/78390/22239/18781/18784/232889/320981/237625/53897
 mmu00592                                                  18783/211429/329502/78390/18781/18784/232889/237625
-mmu00591                               18783/211429/329502/78390/242546/18781/18784/13113/232889/237625/11687
 mmu04913                          18783/211429/329502/78390/242546/11689/232889/13076/13070/15485/13078/16867
 mmu04061                  16174/20311/57349/56744/14825/20295/20296/20306/20304/20305/12775/56838/16185/16186
          Count
 mmu00590    16
+mmu00591    12
 mmu00565    11
 mmu00592     8
-mmu00591    11
 mmu04913    12
 mmu04061    14
 ```
