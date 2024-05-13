@@ -609,8 +609,8 @@ Bioconductor release (3.17), there are the following organism packages:
 
 <center>
 
-| Package        | Organism    | Package           | Organism            |
-| -------------- | ----------- | ----------------- | ------------------- |
+| Package                                                        | Organism    | Package                                                           | Organism            |
+| -------------------------------------------------------------- | ----------- | ----------------------------------------------------------------- | ------------------- |
 | org.Hs.eg.db   | Human       | org.Mm.eg.db      | Mouse               |
 | org.Rn.eg.db   | Rat         | org.Dm.eg.db      | Fly                 |
 | org.At.tair.db | Arabidopsis | org.Dr.eg.db      | Zebrafish           |
@@ -718,11 +718,11 @@ object can be directly used in the ORA analysis introduced in the next section.
 
 A biological pathway is a series of interactions among molecules in a cell
 that leads to a certain product or a change in a cell^[The definition is from
-Wikipedia: https\://en.wikipedia.org/wiki/Biological_pathway.]. A pathway
+Wikipedia: https://en.wikipedia.org/wiki/Biological_pathway.]. A pathway
 involves a list of genes playing different roles which constructs the "pathway
 gene set". [KEGG pathway](https://www.genome.jp/kegg/pathway.html) is the
 mostly used database for pathways. It provides its data via a REST API
-(https\://rest.kegg.jp/). There are several commands to retrieve specific types
+(https://rest.kegg.jp/). There are several commands to retrieve specific types
 of data. To retrieve the pathway gene sets, we can use the "link" command as
 shown in the following URL ("link" means to link genes to pathways). When you
 enter the URL in the web browser:
@@ -770,7 +770,7 @@ head(keggNames)
 In both commands, we obtained data for human where the corresponding KEGG code
 is `"hsa"`. The code for other organisms can be found from the KEGG
 website (e.g. `"mmu"` for mouse), or via
-https\://rest.kegg.jp/list/organism.
+https://rest.kegg.jp/list/organism.
 
 Keep in mind, KEGG pathways are only free for academic users. If you use it
 for commercial purposes, please contact the KEGG team to get a
@@ -1145,8 +1145,8 @@ normally ignored in many analyses. In current tools, there are mainly
 following different universe settings:
 
 1. Using all genes in the genome, this also includes non-protein coding genes.
-   For human, the size of universe is 60k \~ 70k.
-2. Using all protein-coding genes. For human, the size of universe is \~ 20k.
+   For human, the size of universe is 60k ~ 70k.
+2. Using all protein-coding genes. For human, the size of universe is ~ 20k.
 3. In the era of microarray, total genes that are measured on the chip is
    taken as the universe. For RNASeq, since reads are aligned to all genes, we
    can set a cutoff and only use those "expressed" genes as the universe.
@@ -1188,7 +1188,7 @@ sets collection. When a self-defined universe is provided, this might be
 different from what you may think, the universe is .
 Thus the universe setting in **clusterProfiler** is very conservative.
 
-Check the more discusstions at https\://twitter.com/mdziemann/status/1626407797939384320.
+Check the more discusstions at https://twitter.com/mdziemann/status/1626407797939384320.
 
 We can do a simple experiment on the small MSigDB hallmark gene sets. We use
 the `ora()` function which we have implemented in previous "Further reading"
@@ -1235,7 +1235,7 @@ while simple graphs normally do better jobs. Recently the visualization code
 in **clusterProfiler** has been moved to a new package **enrichplot**. Let's
 first load the **enrichplot** package. The full sets of visualizations that
 **enrichplot** supports can be found from
-https\://yulab-smu.top/biomedical-knowledge-mining-book/enrichplot.html.
+https://yulab-smu.top/biomedical-knowledge-mining-book/enrichplot.html.
 
 We first re-generate the enrichment table.
 
@@ -1320,8 +1320,8 @@ enrichment, defined as:
 $$\log_2(\mathrm{Fold\_enrichment}) = \frac{n_{11}/n_{10}}{n_{01}/n} = \frac{n_{11}/n_{01}}{n_{10}/n} = \frac{n_{11}n}{n_{10}n_{01}}$$
 
 which is the log2 of the ratio of _DE% in the gene set_ and _DE% in the
-universe_ or the log2 of the ratio of _gene_set% in the DE genes_ and
-_gene_set% in the universe_. The two are identical.
+universe_ or the log2 of the ratio of _gene\_set% in the DE genes_ and
+_gene\_set% in the universe_. The two are identical.
 
 ```{r set-enrichment}
 resTimeGOTable$log2_Enrichment = log( (n_11/n_10)/(n_01/n) )
