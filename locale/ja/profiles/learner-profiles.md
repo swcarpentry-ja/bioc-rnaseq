@@ -22,7 +22,7 @@ Is this workshop for me?: Hypothetical attendees of the RNA-Seq workshop
 - Ability to identify and interpret differentially expressed genes
 - Familiarity with visualization techniques for high-throughput data
 
-***
+---
 
 ## Learner Profile 2: Bioinformatics Analyst in Biotech
 
@@ -44,7 +44,7 @@ Is this workshop for me?: Hypothetical attendees of the RNA-Seq workshop
 - Understanding of the statistical methods used in differential gene expression analysis
 - Understanding of gene ontology and pathway analysis
 
-***
+---
 
 ## Learner Profile 3: Post-doc in Plant Sciences
 
