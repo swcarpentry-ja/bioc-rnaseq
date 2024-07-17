@@ -7,10 +7,10 @@ exercises: 35
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain what RNA-seq is.
-- Describe some of the most common design choices that have to be made before running an RNA-seq experiment.
-- Provide an overview of the procedure to go from the raw data to the read count matrix that will be used for downstream analysis.
-- Show some common types of results and visualizations generated in RNA-seq analyses.
+- Expliquez ce qu'est l'ARN-seq (RNA-seq).
+- Décrivez certains des choix de plans d'experiences les plus courants qui doivent être faits avant d’exécuter une expérience de séquençage d’ARN.
+- Fournir un aperçu de la procédure pour passer des données brutes à la matrice de nombre de lectures des sequences qui sera utilisée pour l'analyse en aval.
+- Afficher quelques types courants de résultats et de visualisations générés pour des analyses RNA-seq.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
